@@ -1,0 +1,11 @@
+#login-btn:hover {
+  background-color: lavender;
+  color: rgb(23, 99, 74);
+  border-color: rgb(23, 99, 74);
+  transform: scale(1.1);
+}
+
+.box-sizer {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
