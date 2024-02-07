@@ -9,3 +9,37 @@
   padding-left: 60px !important;
   padding-right: 60px !important;
 }
+
+#withdraw-btn {
+  background-color: rgb(82, 139, 185);
+  color: aliceblue;
+  border-color: rgb(82, 139, 185);
+}
+
+#deposit-btn {
+  background-color: rgb(82, 139, 185);
+  color: aliceblue;
+  border-color: rgb(82, 139, 185);
+}
+
+#withdraw-btn:hover {
+  background-color: lavender;
+  color: rgb(23, 99, 74);
+  border-color: rgb(23, 99, 74);
+  transform: scale(1.1);
+}
+
+#deposit-btn:hover {
+  background-color: lavender;
+  color: rgb(23, 99, 74);
+  border-color: rgb(23, 99, 74);
+  transform: scale(1.1);
+}
+
+.bg1 {
+  background-color: rgb(182, 46, 76);
+}
+
+.bg2 {
+  background-color: rgb(134, 161, 33);
+}

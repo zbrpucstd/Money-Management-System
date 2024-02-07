@@ -27,15 +27,51 @@
               class="col p-5 me-5 bg-success rounded-pill fs-2 text-white box-sizer"
             >
               Deposit <br />
-              <span class="fs-1">$00</span>
+              <span class="fs-1"
+                >$<span id="prev-deposit-amount">00</span></span
+              >
             </div>
             <div class="col p-5 me-5 bg-warning rounded-pill fs-2 text-white">
               Withdraw <br />
-              <span class="fs-1">$00</span>
+              <span class="fs-1"
+                >$ <span id="prev-withdraw-amount">00</span></span
+              >
             </div>
             <div class="col p-5 bg-info rounded-pill fs-2 text-white">
               Balance <br />
-              <span class="fs-1">$00</span>
+              <span class="fs-1"
+                >$ <span id="prev-balance-amount">1000</span></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div
+              class="col p-5 me-5 bg1 rounded-pill fs-2 text-white box-sizer"
+            >
+              Please Deposit
+              <input
+                class="form-control mt-3"
+                type="text"
+                id="deposit-field"
+                placeholder="$ Amount you want to deposit"
+              />
+              <button class="btn btn-warning mt-3" id="deposit-btn">
+                Deposit
+              </button>
+            </div>
+            <div class="col p-5 me-5 bg2 rounded-pill fs-2 text-white">
+              Please Withdraw
+              <input
+                class="form-control mt-3"
+                type="text"
+                id="withdraw-field"
+                placeholder="$ Amount you want to withdraw"
+              />
+              <button class="btn mt-3" id="withdraw-btn">Withdraw</button>
             </div>
           </div>
         </div>
@@ -47,5 +83,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js\style.js"></script>
+    <script src="js\deposit.js"></script>
+    <script src="js\withdraw.js"></script>
   </body>
 </html>
